@@ -1,0 +1,50 @@
+May 21 00:50:40 instance-alonso sudo: pam_unix(sudo:session): session opened for user root by cloud_user_p_b2df6d1f(uid=0)
+May 21 00:50:51 instance-alonso sudo: pam_unix(sudo:session): session closed for user root
+May 21 00:54:26 instance-alonso sudo: cloud_user_p_b2df6d1f : TTY=pts/0 ; PWD=/home ; USER=root ; COMMAND=/usr/bin/apt get wget
+May 21 00:54:26 instance-alonso sudo: pam_unix(sudo:session): session opened for user root by cloud_user_p_b2df6d1f(uid=0)
+May 21 00:54:26 instance-alonso sudo: pam_unix(sudo:session): session closed for user root
+May 21 00:54:49 instance-alonso sudo: cloud_user_p_b2df6d1f : TTY=pts/0 ; PWD=/home ; USER=root ; COMMAND=/usr/bin/apt install wget
+May 21 00:54:49 instance-alonso sudo: pam_unix(sudo:session): session opened for user root by cloud_user_p_b2df6d1f(uid=0)
+May 21 00:56:33 instance-alonso sudo: pam_unix(sudo:session): session closed for user root
+May 21 00:56:37 instance-alonso sudo: cloud_user_p_b2df6d1f : TTY=pts/0 ; PWD=/home ; USER=root ; COMMAND=/usr/bin/apt install wget
+May 21 00:56:37 instance-alonso sudo: pam_unix(sudo:session): session opened for user root by cloud_user_p_b2df6d1f(uid=0)
+May 21 00:56:37 instance-alonso sudo: pam_unix(sudo:session): session closed for user root
+May 21 00:57:07 instance-alonso sudo: cloud_user_p_b2df6d1f : TTY=pts/0 ; PWD=/home ; USER=root ; COMMAND=/usr/bin/wget https://dl.google.com/go/go1.13.linux-amd64.tar.gz
+May 21 00:57:07 instance-alonso sudo: pam_unix(sudo:session): session opened for user root by cloud_user_p_b2df6d1f(uid=0)
+May 21 00:57:10 instance-alonso sudo: pam_unix(sudo:session): session closed for user root
+May 21 00:58:31 instance-alonso sudo: cloud_user_p_b2df6d1f : TTY=pts/0 ; PWD=/home/cloud_user_p_b2df6d1f ; USER=root ; COMMAND=/usr/bin/tar -C /usr/local -xzf go1.13.linux-amd64.tar.gz
+May 21 00:58:31 instance-alonso sudo: pam_unix(sudo:session): session opened for user root by cloud_user_p_b2df6d1f(uid=0)
+May 21 00:58:34 instance-alonso sudo: pam_unix(sudo:session): session closed for user root
+May 21 01:11:46 instance-alonso sshd[10866]: Connection closed by 192.241.209.78 port 45380 [preauth]
+May 21 01:15:40 instance-alonso sudo: cloud_user_p_b2df6d1f : TTY=pts/0 ; PWD=/home/cloud_user_p_b2df6d1f ; USER=root ; COMMAND=/usr/bin/nano /etc/td-agent/td-agent.conf
+May 21 01:15:40 instance-alonso sudo: pam_unix(sudo:session): session opened for user root by cloud_user_p_b2df6d1f(uid=0)
+May 21 01:16:09 instance-alonso sudo: pam_unix(sudo:session): session closed for user root
+May 21 01:17:01 instance-alonso CRON[10873]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 21 01:17:01 instance-alonso CRON[10873]: pam_unix(cron:session): session closed for user root
+May 21 01:19:21 instance-alonso sshd[10876]: Invalid user houwy from 120.48.19.10 port 37086
+May 21 01:19:22 instance-alonso sshd[10876]: Received disconnect from 120.48.19.10 port 37086:11: Bye Bye [preauth]
+May 21 01:19:22 instance-alonso sshd[10876]: Disconnected from invalid user houwy 120.48.19.10 port 37086 [preauth]
+May 21 01:21:51 instance-alonso sudo: cloud_user_p_b2df6d1f : TTY=pts/0 ; PWD=/home/cloud_user_p_b2df6d1f ; USER=root ; COMMAND=/usr/bin/nano /etc/td-agent/td-agent.conf
+May 21 01:21:51 instance-alonso sudo: pam_unix(sudo:session): session opened for user root by cloud_user_p_b2df6d1f(uid=0)
+May 21 01:22:12 instance-alonso sudo: pam_unix(sudo:session): session closed for user root
+May 21 01:25:00 instance-alonso sudo: cloud_user_p_b2df6d1f : TTY=pts/0 ; PWD=/home/cloud_user_p_b2df6d1f ; USER=root ; COMMAND=/usr/bin/nano /etc/td-agent/td-agent.conf
+May 21 01:25:00 instance-alonso sudo: pam_unix(sudo:session): session opened for user root by cloud_user_p_b2df6d1f(uid=0)
+May 21 01:27:09 instance-alonso sudo: pam_unix(sudo:session): session closed for user root
+May 21 01:27:56 instance-alonso sudo: cloud_user_p_b2df6d1f : TTY=pts/0 ; PWD=/home/cloud_user_p_b2df6d1f ; USER=root ; COMMAND=/usr/bin/systemctl restart td-agent.service
+May 21 01:27:56 instance-alonso sudo: pam_unix(sudo:session): session opened for user root by cloud_user_p_b2df6d1f(uid=0)
+May 21 01:27:57 instance-alonso sudo: pam_unix(sudo:session): session closed for user root
+May 21 01:28:05 instance-alonso sudo: cloud_user_p_b2df6d1f : TTY=pts/0 ; PWD=/home/cloud_user_p_b2df6d1f ; USER=root ; COMMAND=/usr/bin/systemctl status td-agent.service
+May 21 01:28:05 instance-alonso sudo: pam_unix(sudo:session): session opened for user root by cloud_user_p_b2df6d1f(uid=0)
+May 21 01:28:05 instance-alonso sudo: pam_unix(sudo:session): session closed for user root
+May 21 01:30:19 instance-alonso sshd[10983]: Invalid user  from 65.49.20.66 port 54004
+May 21 01:30:24 instance-alonso sshd[10983]: Connection closed by invalid user  65.49.20.66 port 54004 [preauth]
+May 21 01:33:55 instance-alonso sshd[10986]: Did not receive identification string from 138.68.138.162 port 53496
+May 21 01:34:05 instance-alonso sshd[10987]: Invalid user user from 138.68.138.162 port 33486
+May 21 01:34:05 instance-alonso sshd[10987]: Received disconnect from 138.68.138.162 port 33486:11: Normal Shutdown, Thank you for playing [preauth]
+May 21 01:34:05 instance-alonso sshd[10987]: Disconnected from invalid user user 138.68.138.162 port 33486 [preauth]
+May 21 01:34:17 instance-alonso sshd[10989]: Invalid user user from 138.68.138.162 port 37162
+May 21 01:34:18 instance-alonso sshd[10989]: Received disconnect from 138.68.138.162 port 37162:11: Normal Shutdown, Thank you for playing [preauth]
+May 21 01:34:18 instance-alonso sshd[10989]: Disconnected from invalid user user 138.68.138.162 port 37162 [preauth]
+May 21 01:34:30 instance-alonso sshd[10991]: Invalid user user from 138.68.138.162 port 40586
+May 21 01:34:30 instance-alonso sshd[10991]: Received disconnect from 138.68.138.162 port 40586:11: Normal Shutdown, Thank you for playing [preauth]
+May 21 01:34:30 instance-alonso sshd[10991]: Disconnected from invalid user user 138.68.138.162 port 40586 [preauth]
